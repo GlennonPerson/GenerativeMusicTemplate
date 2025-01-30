@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8473824563061388891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound2
+  m_EditorClassIdentifier: 
+  Path: event:/Sound2
+  Guid:
+    Data1: 1895992639
+    Data2: 1130616361
+    Data3: -1234745208
+    Data4: -1160711995
+  Banks:
+  - {fileID: -5304843974417664180}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1.6
+  MaxDistance: 15
+  Length: 6000
+--- !u!114 &-5304843974417664180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../GenerativeMusic_FMOD/Generative Music (Ludic Sound Lab)/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638737508959400965
+  FileSizes:
+  - Name: Desktop
+    Value: 11039232
+  Exists: 1
+--- !u!114 &-4456644445741430807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound3
+  m_EditorClassIdentifier: 
+  Path: event:/Sound3
+  Guid:
+    Data1: 126406227
+    Data2: 1132632176
+    Data3: -296161112
+    Data4: 1288506085
+  Banks:
+  - {fileID: -5304843974417664180}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1.8000001
+  MaxDistance: 15
+  Length: 15000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 3484401665973797647}
+  - {fileID: -5304843974417664180}
+  EditorEvents:
+  - {fileID: 9198593148641384461}
+  - {fileID: -8473824563061388891}
+  - {fileID: -4456644445741430807}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5304843974417664180}
+  StringsBanks:
+  - {fileID: 3484401665973797647}
+  cacheTime: 638737508959413804
+  cacheVersion: 131607
+--- !u!114 &3484401665973797647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../GenerativeMusic_FMOD/Generative Music (Ludic Sound Lab)/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638737508959413804
+  FileSizes:
+  - Name: Desktop
+    Value: 832
+  Exists: 1
+--- !u!114 &9198593148641384461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound1
+  m_EditorClassIdentifier: 
+  Path: event:/Sound1
+  Guid:
+    Data1: 1205475275
+    Data2: 1333626454
+    Data3: 827722156
+    Data4: -295441956
+  Banks:
+  - {fileID: -5304843974417664180}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1.4
+  MaxDistance: 15
+  Length: 13500
