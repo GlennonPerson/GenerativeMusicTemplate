@@ -22,7 +22,7 @@
 
 ## Features
 - FMOD Sound Integration
-- Three instruments (Sound1, Sound2, Sound3) set for random list play back
+- Three instruments (Sound1, Sound2, Sound3). Each features a multi-instrument FMOD event that plays harmonically related notes at random from a list upon collision. 
 
 ## Troubleshooting
 - Ensure that FMOD is properly imported in the package manager of the Untiy project
