@@ -14,9 +14,18 @@
 ## Setup Instructions
 1. Download and unzip the template
 2. Open Unity Hub > Add project from disk > Select Unity Project folder
-3. Open FMOD Project in FMOD Studio
+3. Open unity project
+4. Ensure FMOD is importated in the package manager (this may require restarting Unity)
+5. Go to Menu -> FMOD -> Edit Settings -> Studio Project Path -> Select FMOD Project from Github Download folder
+6. Open FMOD Project in FMOD Studio
+7. Go to File -> Build. This rebuilds the master bank locally on your device.
 
 ## Features
-[List key features of your specific template, e.g.:]
 - FMOD Sound Integration
 - Three instruments (Sound1, Sound2, Sound3) set for random list play back
+
+## Troubleshooting
+Ensure that FMOD is properly imported in the package manager of the Untiy project
+Check Unity - > Menu -> FMOD -> Edit Settings to make sure the .fspro file is connected
+Unity may need to restart after initially opening the project.
+
