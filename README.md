@@ -25,7 +25,9 @@
 - Three instruments (Sound1, Sound2, Sound3) set for random list play back
 
 ## Troubleshooting
-Ensure that FMOD is properly imported in the package manager of the Untiy project
-Check Unity - > Menu -> FMOD -> Edit Settings to make sure the .fspro file is connected
-Unity may need to restart after initially opening the project.
+- Ensure that FMOD is properly imported in the package manager of the Untiy project
+- Check Unity - > Menu -> FMOD -> Edit Settings to make sure the .fspro file is connected
+- Unity may need to restart after initially opening the project.
+- It will be necessary to rebuild the FMOD banks. Go to the FMOD project, File -> Build. 
+- If Unity project appears blank go to Assets -> Scenes and select LudicGameLab
 
